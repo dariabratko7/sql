@@ -65,7 +65,6 @@ namespace ShopDatabase
             }
         }
 
-        // 1. Заповнення даними через List
         static void FillData(ShopContext db)
         {
             if (!db.Phones.Any())
